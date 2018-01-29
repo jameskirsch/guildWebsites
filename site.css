@@ -6,3 +6,11 @@ body {
     float: right;
 }
 
+.background {
+    background-color: black;
+}
+
+.font {
+    color: white;
+}
+
