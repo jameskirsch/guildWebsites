@@ -1,41 +1,72 @@
 <DOCTYPE! html>
 <html>
 <head>
-    <link rel="stylesheet" href="site.css">
+    <!-- <link rel="stylesheet" href="site.css" -->
+    <!-- just put styles in main file for now -->
+    <style>
+        body {
+            font-family: cursive;
+            font-size: 1.5em;
+        }
+        .rightAligned {
+            float: right; 
+        }
+        .background {
+            background-color: black;
+        }
+        .font {
+            color: white;
+        }
+    </style>
 </head>
 <title>Personal Guild Websites</title>
 <body class="background font">
     <div>
-        <h1>Create a Personal Website for your Guild Event</h1>
-        <span>You have been invited to try out our beta to create your own personal guild website event. The best design will win the $5000 prize!</span>
+        <h1><strong>EVENT!</strong> Creating a Personal Website for your Guild</h1>
+        <span>You are invited to the create your own personal guild website event. The best design will win the $5000 grand prize!</span>
     </div>
+    <!-- Use of <hr> tag -->
     <hr>
     <div>
+        <!-- use of font properties -->
          <span style="font-size: larger;font-family: cursive;"><p>Create a personalized community for you and your friends to play games with.</p></span>
+         <!-- use of nested list -->
          <ul style="font-size: larger;font-family: cursive;">
-             <li>Sign up for your Guild</li>
-             <li>Talk to your friends</li>
-             <li>Learn from others</li>
-             <li>Track your guild progress</li>
+            <p>Steps to Sign Up</p>
+            <li>
+                <ol>
+                    <li>Register to the website</li>
+                    <li>Choose your game</li>
+                    <li>Choose a theme</li>
+                    <li>Build your site</li>
+                </ol>
+            </li>
+            <br>
+            <li>Sign up for your Guild</li>
+            <li>Talk to your friends</li>
+            <li>Learn from others</li>
+            <li>Track your guild progress</li>
          </ul>
+         <!-- Link to another page -->
+         <p>If you need help choosing a good design, a google search for design ideas is recommended by going <a href="https://google.com/">here.</a></p>
     </div>
-    <div>
-        
-        <div class="rightAligned">
-            <p>Choose from your favorite Video Game titles such as</p>
-            <ol>
+    <hr> 
+    <!-- Use of style tags -->
+    <div style="height: 40em">
+            <!-- Inserted images -->
+            <p style="margin-left: 7.4em; font-size: 1.5em">Choose from your favorite Video Game titles such as</p>
+            <ol style="float:left; margin-left: 10em; list-style-type:none">
                 <li><div><h2>Star Wars - The Old Republic</h2></div><img  width ="400px"; height="150px" src="http://www.theaveragegamer.com/wp-content/uploads/2011/10/SWTOR_Logo.jpg"></li>
                 <li><div><h2>World of Warcraft</h2></div><img width="400px" height="150px" src="https://www.zilliondesigns.com/blog/wp-content/uploads/wow-logo2800.jpg"></li>
                 <li><div><h2>Minecraft</h2></div><img width="400px" height="150px" src="https://vignette.wikia.nocookie.net/logopedia/images/6/6e/Logo_MC.png/revision/latest?cb=20170615123431"></li>
             </ol>
-        </div>
-
-
-        
+            <ol style="float:right; margin-right: 10em; list-style-type:none">
+                <li><div><h2>Guild Wars 2</h2></div><img  width ="400px"; height="150px" src="https://orig00.deviantart.net/0740/f/2012/155/d/e/guild_wars_2_logo_vector_by_krukmeister-d52813m.jpg"></li>
+                <li><div><h2>Eve Online</h2></div><img width="400px" height="150px" src="https://clericblog.files.wordpress.com/2013/05/eve-forever4.jpg"></li>
+                <li><div><h2>Warhammer Online</h2></div><img width="400px" height="150px" src="http://lucas.hardi.org/images/WARLogoSketch.jpg"></li>
+            </ol>
+            <img height="950px" width="700px" src="https://vignette.wikia.nocookie.net/darksouls/images/8/85/Lothric_Knight_Greatsword.png/revision/latest?cb=20160612050209">
+            <hr>
     </div>
-    
-   
 </body>
-
-
 </html>
